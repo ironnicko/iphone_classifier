@@ -9,7 +9,7 @@ cap = cv2.VideoCapture(0)
 model = tensorflow.keras.models.load_model("model/keras_model.h5") 
 
 """
-the close to "1" the predicted value, is the more precise the model is.
+the closer to "1" the predicted value is, more precise the model.
 Android is the defaulting value, so if there's no matching result, the prediction
 defaults to android.
 """
