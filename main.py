@@ -5,7 +5,7 @@ import numpy as np
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 cap = cv2.VideoCapture(0)
 
-model = tensorflow.keras.models.load_model("model/keras_model.h5") 
+model = tensorflow.keras.models.load_model("./model/keras_model.h5") 
 
 """
 the closer to "1" the predicted value is, more precise the model.
